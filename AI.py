@@ -122,6 +122,7 @@ if __name__ == "__main__":
     y_pred_prob = [0.1, 0.9, 0.8, 0.2]
     print("Binary Cross Entropy Loss:", binary_cross_entropy(y_true_prob, y_pred_prob))
 
+
     y_true = [0, 1, 1, 0]
     y_pred = [0, 1, 1, 0]
 
